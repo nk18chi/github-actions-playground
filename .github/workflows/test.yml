@@ -27,7 +27,7 @@ jobs:
         run: yarn test
 
       - name: Build
-        run: yarn test
+        run: yarn build
 
       - name: Deploy
         run: echo "Deploy"
